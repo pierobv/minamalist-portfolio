@@ -9,136 +9,144 @@
 </head>
 
 <body>
-        <nav id="desktop-nav">
-            <div class="logo">Piero Volpato</div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-     
-        <nav id="hamburger-nav">
-            <div class="logo">Piero Volpato</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-            </div>
-        </nav>
-     
-        <section id="profile">
-            <div class="section__pic-container">
-                <img id='profile-pic'src="./assets/profile-pic.png" alt="Piero Volpato">
-            </div>
-            <div class="section__text">
-                <p class="section__text__p1">Hello, I'm</p>
-                <h1 class="title">Piero Volpato</h1>
-                <p class="section__text__p2">Fullstack Developer</p>
-                <div class="btn-container">
-                    <button 
-                    class="btn btn-color-2" 
-                    onclick="window.open('./assets/PieroV CV Jan24.pdf')"
-                    >
-                        Download CV (English)
-                    </button>
+    
+        <div id="page-1" class="page">
 
-                    <button 
-                    class="btn btn-color-2" 
-                    onclick="window.open('./assets/PieroV CV Feb24 It.pdf')"
-                    >
-                        Download CV (Italian)
-                    </button>
-
-                    <button 
-                    class="btn btn-color-1" 
-                    onclick="location.href='./#contact'"
-                    >
-                        Contact Info
-                    </button>
+            <nav id="desktop-nav">
+                <div id='name'class="logo">Piero Volpato</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a1 href="#about">About</a></li>
+                        <li><a1 href="#experience">Experience</a></li>
+                        <li><a1 href="#projects">Projects</a></li>
+                        <li><a1 href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-
-                <div id="socials-container">
-                    <img src="./assets/linkedin.png" 
-                    alt="My LinkedIn profile"
-                    class="icon" 
-                    onclick="window.open('https://www.linkedin.com/in/pierobv')"
-                    />
-
-                    <img src="./assets/github.png" 
-                    alt="My Github profile"
-                    class="icon" 
-                    onclick="window.open('https://github.com/pierobv')"
-                    />
-
-                </div>
+            </nav>
         
-            </div>
-        </section>
-     
-        <section id="about">
-            <p class="section__text__p1">Get to Know More</p>
-                <h1 class="title">About Me</h1>
-                <div class="section-container">
-                    <div class="section__pic-container">
-                        <img 
-                            src="./assets/about-pic.png" 
-                            alt="Profile picture" 
-                            class="about-pic"
-                        />
-                    </div>
-                    <div class="about-details-container">
-                        <div class="about-containers">
-                            <div class="details-container">
-                                <img 
-                                    src="./assets/experience.png" 
-                                    alt="Experience icon" 
-                                    class="icon"
-                                />
-                                <h3>Experience</h3>
-                                <p>1+ year <br />Fullstack Developer</p>
-                            </div>
-                            <div class="details-container">
-                                <img 
-                                    src="./assets/education.png" 
-                                    alt="Education icon" 
-                                    class="icon"
-                                />
-                                <h3>Education</h3>
-                                <p>Computer Science Bachelors Degree - UniFBV Wyden (Brazil)<br /></p>
-                            </div>
-                        </div>
-                        <div class="text-container">
-                            
-                                <p>
-                                    I'm Piero Volpato, 22 years old, 
-                                    I'm living in Udine - Italy and 
-                                    graduated in Computer Science in 2022 from UniFBV. 
-                                    I am a Full Stack Developer and i have experience in
-                                    languages like Python and Javascript, and some frameworks like
-                                    Selenium and React</p>
-                            
-                        </div>
-                    </div>
+            <nav id="hamburger-nav">
+                <div class="logo">Piero Volpato</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            <img 
-                src="./assets/arrow.png" 
-                alt="Arrow icon"
-                class="icon arrow"
-                onclick="location=href='./#experience'"
-            />
-        </section>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+                </div>
+            </nav>
+        
+            <section id="profile">
+                <div class="section__pic-container">
+                    <img id='profile-pic'src="./assets/profile-pic.png" alt="Piero Volpato">
+                </div>
+                <div class="section__text">
+                    <p class="section__text__p1">Hello, I'm</p>
+                    <h1 class="title">Piero Volpato</h1>
+                    <p class="section__text__p2">Fullstack Developer</p>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2" 
+                        onclick="window.open('./assets/PieroV CV Jan24.pdf')"
+                        >
+                            Download CV (English)
+                        </button>
+
+                        <button 
+                        class="btn btn-color-2" 
+                        onclick="window.open('./assets/PieroV CV Feb24 It.pdf')"
+                        >
+                            Download CV (Italian)
+                        </button>
+
+                        <button 
+                        class="btn btn-color-1" 
+                        onclick="location.href='./#contact'"
+                        >
+                            Contact Info
+                        </button>
+                    </div>
+
+                    <div id="socials-container">
+                        <img src="./assets/linkedin.png" 
+                        alt="My LinkedIn profile"
+                        class="icon" 
+                        onclick="window.open('https://www.linkedin.com/in/pierobv')"
+                        />
+
+                        <img src="./assets/github.png" 
+                        alt="My Github profile"
+                        class="icon" 
+                        onclick="window.open('https://github.com/pierobv')"
+                        />
+
+                    </div>
+            
+                </div>
+            </section>
+
+            <section id="space-1"></section>
+        </div>
+
+        <div id="page-2" class="page">
+            <section id="about">
+                <p class="section__text__p1">Get to Know More</p>
+                    <h1 class="title">About Me</h1>
+                    <div class="section-container">
+                        <div class="section__pic-container">
+                            <img 
+                                src="./assets/about-pic.png" 
+                                alt="Profile picture" 
+                                class="about-pic"
+                            />
+                        </div>
+                        <div class="about-details-container">
+                            <div class="about-containers">
+                                <div class="details-container">
+                                    <img 
+                                        src="./assets/experience.png" 
+                                        alt="Experience icon" 
+                                        class="icon"
+                                    />
+                                    <h3>Experience</h3>
+                                    <p>1+ year <br />Fullstack Developer</p>
+                                </div>
+                                <div class="details-container">
+                                    <img 
+                                        src="./assets/education.png" 
+                                        alt="Education icon" 
+                                        class="icon"
+                                    />
+                                    <h3>Education</h3>
+                                    <p>Computer Science Bachelors Degree - UniFBV Wyden (Brazil)<br /></p>
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                
+                                    <p>
+                                        I'm Piero Volpato, 22 years old, 
+                                        I'm living in Udine - Italy and 
+                                        graduated in Computer Science in 2022 from UniFBV. 
+                                        I am a Full Stack Developer and i have experience in
+                                        languages like Python and Javascript, and some frameworks like
+                                        Selenium and React</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                <img 
+                    src="./assets/arrow.png" 
+                    alt="Arrow icon"
+                    class="icon arrow"
+                    onclick="location=href='./#experience'"
+                />
+            </section>
+        </div>
 
         <section id="experience">
             <p class="section__text__p1">Explore My</p>
@@ -429,7 +437,7 @@
         </section>
 
         <footer>
-            <nav>
+            <nav id="nav-1">
                 <div class="nav-links-container">
                     <ul class="nav-links">
                         <li><a href="#about">About</a></li>
